@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthquake Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>EARTHQUAKES</h1>
+        <div class="content">
+            <div class="image-container">
+                <img id="earthquake-image" src="C:\Users\gopij\OneDrive\Desktop\boy.jpg" alt="Earthquake" width="300" height="400">
+                <img id="animation-image" src="C:\Users\gopij\OneDrive\Desktop\earthquake.jpg" alt="Animation" width="300" height="400">
+                <img id="thermometer-image" src="" alt="Animation" width="300" height="400">
+            </div>
+            <div class="thermostat-container">
+                <div class="thermostat">
+                    <input type="range" min="1" max="11" value="1" class="slider" id="magnitudeSlider">
+                    <div class="value-description" id="valueDescription">Minor</div>
+                    <div class="scale">
+                        <div class="scale-values">
+                            <div>11</div>
+                            <div>10</div>
+                            <div>9</div>
+                            <div>8</div>
+                            <div>7</div>
+                            <div>6</div>
+                            <div>5</div>
+                            <div>4</div>
+                            <div>3</div>
+                            <div>2</div>
+                            <div>1</div>
+                        </div>
+                    </div>
+                </div>
+                <button id="enterButton">Enter</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
